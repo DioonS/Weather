@@ -23,15 +23,15 @@
                 </button>
             </div>
         </div>
-        <div id="wheater-data" class="hide">
+        <div id="weather-data" class="hide">
             <h2><i class="fa-solid fa-location-dot"></i>
             <span id="city"></span>
-            <img src="" alt="Bandeira" id="country">
+            <img src="" alt="" id="country">
             </h2>
             <p id="temperature"><span></span>&deg;C</p>
             <div id="description-container">
                 <p id="description"></p>
-                <img src="" alt="Condiçoes do tempo" id="wheater-icon">
+                <img src="" alt="Condiçoes atuais" id="weather-icon">
             </div>
             <div id="details-container">
                 <p id="humidity">
@@ -44,6 +44,22 @@
                     </i>
                 </p>
             </div>
+        </div>
+        <div id="error-message" class="hide">
+            <p>Não foi possível encontrar o clima de uma cidade com este nome.</p>
+        </div>
+        <div id="loader" class="hide">
+            <i class="fa-solid fa-spinner"></i>
+        </div>
+        <div id="suggestions">
+            <button id="viena">Viena</button>
+            <button id="copenhague">Copenhague</button>
+            <button id="zurique">Zurique</button>
+            <button id="vancouver">Vancouver</button>
+            <button id="genebra">Genebra</button>
+            <button id="frankfurt">Frankfurt</button>
+            <button id="osaka">Osaka</button>
+            <button id="maceio">Maceió</button>
         </div>
     </div>
 </body>
